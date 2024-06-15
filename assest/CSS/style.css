@@ -23,6 +23,7 @@
     line-height: 16.41px;
     text-align: right;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 h4 {
@@ -55,15 +56,22 @@ section header .container nav h4 .app  {
     gap: 0px;
     border-radius: 210px;
     opacity: 0px;
-    background: #1E71FF;
+    background: #FFFFFF33;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
     text-align: center;
     color: #FFFFFF;
+    background: #1E71FF;
     border: none;
+
 }
+.btn1:hover{
+    background: #ffffff;
+    color:#1E71FF;
+}
+
 
 h2 {
     font-family: "Poppins", sans-serif;
@@ -103,7 +111,8 @@ h2 {
     font-weight: 500;
     line-height: 18.75px;
     text-align: center;
-    color: #1E71FF;
+    color: #fff;
+    background: #1E71FF;
 
 }
 
@@ -112,8 +121,8 @@ h2 {
 }
 
 .btn2:hover {
-    background: #1E71FF;
-    color: #ffffff;
+    color: #1E71FF;
+    background: #ffffff;
 }
 
 .mt125 {
@@ -457,6 +466,7 @@ section .container .row .col-3 .box .footer-fonts {
 a {
     line-height: 163%;
     font-size: 13px;
+    text-decoration: none;
 }
 
 .custam {
