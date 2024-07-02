@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -38,7 +39,7 @@ h4 {
 
 
 
-section header .container nav h4 .app  {
+section header .container nav h4 .app {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
     font-weight: 200;
@@ -47,6 +48,17 @@ section header .container nav h4 .app  {
     text-align: left;
     color: #FFFFFF;
 }
+.mt38{
+    margin-top: 35px;
+}
+.mt124{
+    margin-top: 50px;
+}
+a{
+color: #FFFFFF;
+}
+
+
 
 .btn1 {
     width: 111px;
@@ -67,13 +79,14 @@ section header .container nav h4 .app  {
     border: none;
 
 }
-.btn1:hover{
+
+.btn1:hover {
     background: #ffffff;
-    color:#1E71FF;
+    color: #1E71FF;
 }
 
 
-h2 {
+.have{
     font-family: "Poppins", sans-serif;
     font-size: 75px;
     font-weight: 600;
@@ -95,11 +108,13 @@ h2 {
     margin-bottom: 60px;
 
 }
-
+.mb125{
+    margin-bottom: 125px;
+}
 .btn2 {
 
     width: 172px;
-    height: 50px;
+    height: 60px;
     top: 587px;
     left: 140px;
     gap: 0px;
@@ -113,6 +128,7 @@ h2 {
     text-align: center;
     color: #fff;
     background: #1E71FF;
+    margin-right: 5px;
 
 }
 
@@ -254,6 +270,9 @@ h3 {
 .mt180 {
     margin-top: 180px;
 }
+.mr5{
+    margin-right: 5px;
+}
 
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
 
@@ -355,7 +374,8 @@ h3 {
         display: flex;
         flex-direction: column;
     }
-    .footer{ 
+
+    .footer {
         font-size: 13px;
         display: flex;
         flex-direction: column;
@@ -363,19 +383,21 @@ h3 {
 
     }
 }
+
 @media (max-width:576px) {
-    .col-3{
+    .col-3 {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
-       font-size: 20px;
+        font-size: 20px;
     }
-    .pos-unsets{
+
+    .pos-unsets {
         position: unset !important;
         margin-top: 10px !important;
         text-align: center !important;
     }
-    
+
 }
 
 /*-------------------------------footer*/
@@ -387,8 +409,8 @@ h3 {
     text-align: left;
     color: #1E71FF;
     font-family: "Poppins", sans-serif;
-        font-weight: 200;
-        font-style: normal;
+    font-weight: 200;
+    font-style: normal;
 
 }
 
@@ -402,8 +424,8 @@ h3 {
     color: #1E71FF;
     letter-spacing: -2%;
     font-family: "Poppins", sans-serif;
-        font-weight: 600;
-        font-style: normal;
+    font-weight: 600;
+    font-style: normal;
 
 }
 
@@ -450,7 +472,7 @@ h3 {
 
 
 section .container .row .col-3 .d-flex a {
-    color: #1888ea;
+    color:  #2B353EB2;
     z-index: 10;
 }
 
