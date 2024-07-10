@@ -111,6 +111,42 @@ color: #FFFFFF;
 .mb125{
     margin-bottom: 125px;
 }
+.btn{
+    width: 111px;
+    height: 40px;
+    border: 0;
+    border-radius: 100px;
+    background: #4B8DFF;
+    color: white;
+    transition:all .5s linear;
+        font-size: 16px;
+            font-weight: 500;
+            font-family: "Roboto", sans-serif;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: #1E71FF;
+}
+.btn1 {
+
+    width: 172px;
+    height: 60px;
+    top: 587px;
+    left: 140px;
+    gap: 0px;
+    border-radius: 60px;
+    opacity: 0px;
+    border: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    color: white;
+    background: transparent;
+    margin-right: 5px;
+
+}
 .btn2 {
 
     width: 172px;
@@ -120,14 +156,14 @@ color: #FFFFFF;
     gap: 0px;
     border-radius: 60px;
     opacity: 0px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #1E71FF;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.75px;
     text-align: center;
-    color: #fff;
-    background: #1E71FF;
+    color: #1E71FF;
+    background:transparent;
     margin-right: 5px;
 
 }
@@ -137,8 +173,8 @@ color: #FFFFFF;
 }
 
 .btn2:hover {
-    color: #1E71FF;
-    background: #ffffff;
+    color:white;
+    background:#1E71FF;
 }
 
 .mt125 {
