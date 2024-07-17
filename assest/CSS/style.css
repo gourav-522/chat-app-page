@@ -99,7 +99,7 @@ a {
 }
 
 .mt258 {
-    margin-bottom: 5px;
+    margin-top: 258px;
 }
 
 
@@ -344,6 +344,14 @@ h3 {
     gap: 25px;
 }
 
+.fot-bar {
+    margin-top: 12px;
+}
+
+.fot-bar:hover {
+    text-decoration: underline;
+}
+
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
 
 
@@ -393,6 +401,10 @@ h3 {
         padding-right: 12px;
     }
 
+    .custam {
+        display: none;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -426,6 +438,7 @@ h3 {
 
     .perfect {
         text-align: center;
+        font-size: 40px;
     }
 
     .plans {
@@ -480,6 +493,13 @@ h3 {
 
 }
 
+
+
+@media (max-width: 1920px) {
+    .custam {
+        display: none;
+    }
+}
 
 
 
@@ -566,16 +586,24 @@ section .container .row .col-3 .box .footer-fonts {
     font-size: 15px;
     font-weight: 400;
     line-height: 24.25px;
+
+}
+
+.last-team {
+    width: 168px;
 }
 
 
-a {
+.fot-bar {
     line-height: 163%;
     font-size: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.02px;
     text-decoration: none;
 }
 
-.custam {
+*/ .custam {
     bottom: 70px;
     right: 50px;
     width: 50px;
