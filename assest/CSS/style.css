@@ -27,6 +27,14 @@
     text-decoration: none;
 }
 
+.content:hover {
+
+
+    text-decoration: underline;
+    line-height: 24px;
+
+}
+
 h4 {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -48,14 +56,17 @@ section header .container nav h4 .app {
     text-align: left;
     color: #FFFFFF;
 }
-.mt38{
+
+.mt38 {
     margin-top: 35px;
 }
-.mt124{
+
+.mt124 {
     margin-top: 50px;
 }
-a{
-color: #FFFFFF;
+
+a {
+    color: #FFFFFF;
 }
 
 
@@ -77,16 +88,22 @@ color: #FFFFFF;
     color: #FFFFFF;
     background: #1E71FF;
     border: none;
+    transition: all 300MS linear;
 
 }
 
 .btn1:hover {
     background: #ffffff;
     color: #1E71FF;
+
+}
+
+.mt258 {
+    margin-bottom: 5px;
 }
 
 
-.have{
+.have {
     font-family: "Poppins", sans-serif;
     font-size: 75px;
     font-weight: 600;
@@ -96,6 +113,7 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-top: 100px;
     margin-bottom: 20px;
+    max-width: 499px;
 }
 
 .chat {
@@ -108,25 +126,29 @@ color: #FFFFFF;
     margin-bottom: 60px;
 
 }
-.mb125{
+
+.mb125 {
     margin-bottom: 125px;
 }
-.btn{
+
+.btn {
     width: 111px;
     height: 40px;
     border: 0;
     border-radius: 100px;
     background: #4B8DFF;
     color: white;
-    transition:all .5s linear;
-        font-size: 16px;
-            font-weight: 500;
-            font-family: "Roboto", sans-serif;
+    transition: all .5s linear;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #FFFFFF;
     color: #1E71FF;
 }
+
 .btn1 {
 
     width: 172px;
@@ -147,6 +169,7 @@ color: #FFFFFF;
     margin-right: 5px;
 
 }
+
 .btn2 {
 
     width: 172px;
@@ -163,7 +186,7 @@ color: #FFFFFF;
     line-height: 18.75px;
     text-align: center;
     color: #1E71FF;
-    background:transparent;
+    background: transparent;
     margin-right: 5px;
 
 }
@@ -173,8 +196,9 @@ color: #FFFFFF;
 }
 
 .btn2:hover {
-    color:white;
-    background:#1E71FF;
+    color: white;
+    background: #1E71FF;
+
 }
 
 .mt125 {
@@ -219,7 +243,11 @@ h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 29.11px;
+    max-width: 566px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+
     color: #2B353EB2;
 }
 
@@ -303,19 +331,19 @@ h3 {
     margin-left: 100px;
 }
 
-.mt180 {
-    margin-top: 180px;
-}
-.mr5{
+.mr5 {
     margin-right: 5px;
 }
-.top{
+
+.top {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-.gap25{
+
+.gap25 {
     gap: 25px;
 }
+
 /*---------------------------------------------------------------------------Responsive--------------------------------------------------------------------------------*/
 
 
@@ -380,12 +408,8 @@ h3 {
 
 }
 
-@media (max-width:576px) {
-    .col-12 {
-        width: 100%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+
+@media (max-width:581px) {
 
     .ml36 {
         margin-left: 0;
@@ -424,9 +448,23 @@ h3 {
         flex-wrap: wrap;
 
     }
-}
 
-@media (max-width:576px) {
+    .have {
+        font-size: 55px;
+
+    }
+
+    .btn2 {
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .custam {
+        display: none;
+    }
+
     .col-3 {
         width: 50%;
         padding-left: 12px;
@@ -441,6 +479,10 @@ h3 {
     }
 
 }
+
+
+
+
 
 /*-------------------------------footer*/
 .appp {
@@ -514,7 +556,7 @@ h3 {
 
 
 section .container .row .col-3 .d-flex a {
-    color:  #2B353EB2;
+    color: #2B353EB2;
     z-index: 10;
 }
 
